@@ -6,7 +6,7 @@ spec:
   selector:
     app: app
   ports:
-  - port: 80
+  - port: 8080
     targetPort: app-port
     protocol: TCP
-  type: LoadBalancer
+  type: ClusterIP
